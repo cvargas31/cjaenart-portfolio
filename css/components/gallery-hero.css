@@ -1,0 +1,15 @@
+/* .gallery-container {
+  border: 1px solid red;
+  height: 20vh;
+  width: 100vw;
+} */
+
+.title-container {
+  font-size: 32px;
+  font-weight: 700;
+  color: #374C9F;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid red;
+}
