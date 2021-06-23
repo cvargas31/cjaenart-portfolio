@@ -1,0 +1,39 @@
+#hero{
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-container{
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero-container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #374C9F;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hero-container p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px;
+}
+
+.hero-image {
+  height: 100%;
+  background-image: url(../assets/Carolina-Jaen.JPEG);
+  background-size: cover;
+  background-position: cover;
+  width: 90vw;
+  border-radius: 10px;
+}

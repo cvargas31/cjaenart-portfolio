@@ -13,7 +13,7 @@
 
 .logo{
   font-weight: 700;
-  color: palevioletred;
+  color: #374C9F;
   letter-spacing: 5px;
   font-size: 20px;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a{
-  color: palevioletred;
+  color: #374C9F;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 2px;
@@ -42,7 +42,7 @@
   width: 30px;
   height: 3px;
   background-color: #333;
-  background-color: palevioletred;
+  background-color: #374C9F;
   margin: 6px 0;
   transition: all 0.3s ease;
 }
@@ -64,8 +64,8 @@
     position: absolute;
     right: 0px;
     height: 55vh;
-    top: 15vh;
-    background-color: rgba(240, 230, 140, 0.5);
+    top: 7vh;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,5 +105,5 @@
 }
 
 .toggle .bar3{
-  transform: rotate(45deg) translate(-7px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
 }

@@ -3,6 +3,7 @@
 
 /* Components Import */
 @import url("components/navbar.css");
+@import url("components/hero.css");
 
 /* Globals */
 * {
