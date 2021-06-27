@@ -9,7 +9,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 30px;
 }
 
 #navbar a {
@@ -18,30 +17,62 @@ nav {
 
 .logo {
   font-weight: 700;
-  color: gray;
+  color: rgb(128, 128, 128);
   letter-spacing: 5px;
   font-size: 20px;
+  cursor: pointer;
+  margin-left: 30px;
 }
 
 .nav-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   width: 30%;
   z-index: 999;
+  margin-right: 30px;
+}
+
+.nav-links li {
+  margin: 10px 0;
+}
+
+.link {
+  display: inline-block;
+  color: #6b705c;
+  text-decoration: none;
+}
+
+.link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #6b705c;
+  transition: width .3s;
+}
+
+.link:hover::after {
+  width: 100%;
 }
 
 .nav-links a {
-  color: gray;
+  color: rgb(128, 128, 128);
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 2px;
+  transition: all 0.3s ease-in;
+}
+
+.nav-links a:hover{
+  color: #6b705c;
 }
 
 .menu-container {
   display: inline-block;
   cursor: pointer;
   display: none;
+  margin-right: 30px;
 }
 
 .bar1,
@@ -49,15 +80,20 @@ nav {
 .bar3 {
   width: 30px;
   height: 3px;
-  background-color: #333;
-  background-color: #374c9f;
+  background-color: rgb(128, 128, 128);
   margin: 6px 0;
   transition: all 0.3s ease;
 }
 
+
 @media screen and (max-width: 1280px) {
   .nav-links {
     width: 40%;
+    margin-right: 30px;
+  }
+
+  .logo {
+    margin-left: 30px;
   }
 }
 
@@ -71,12 +107,14 @@ nav {
     position: absolute;
     right: 0px;
     height: 55vh;
-    top: 7vh;
+    top: 10vh;
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     transform: translateY(-150%);
+    margin-right: 0;
   }
 
   .nav-links li {
