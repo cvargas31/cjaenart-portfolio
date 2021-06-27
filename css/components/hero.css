@@ -4,7 +4,7 @@
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 50%,
-    rgba(55, 76, 159, 1) 50%
+    rgba(255, 232, 214) 50%
   );
 }
 
@@ -21,7 +21,7 @@
 .hero-container h1 {
   font-size: 32px;
   font-weight: 700;
-  color: #374c9f;
+  color: #495057;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -55,7 +55,7 @@
     background: linear-gradient(
       90deg,
       rgba(255, 255, 255, 1) 50%,
-      rgba(55, 76, 159, 1) 50%
+      rgba(255, 232, 214) 50%
     );
   }
 
