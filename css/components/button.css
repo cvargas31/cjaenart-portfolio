@@ -31,33 +31,21 @@
   padding-left: 20px;
 }
 
-/* .hero-btn{
-  padding: 10px 20px;
-  background-color: #374C9F;
-  color: white;
-  border: none;
-  font-weight: 700;
-  border-radius: 10px;
-  transition:  all 0.3s ;
+.line-btn {
+  display: inline-block;
+  color: #cb997e;
   text-decoration: none;
 }
 
-.hero-btn:hover  {
-  color: #374C9F ;
-  background-color: white;
-  border: 1px solid #374C9F;
-} */
+.line-btn::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #cb997e;
+  transition: width .3s;
+}
 
-/* @media screen and (min-width: 1200px) {
-  .hero-btn{
-    background-color: transparent;
-    border-bottom: 1px solid #374C9F;
-    color: #374C9F;
-    border-radius: 0;
-  }
-
-  .fa-long-arrow-alt-right {
-    color: #374C9F;
-  }
-
-} */
+.line-btn:hover::after{
+  width: 70%;
+}
