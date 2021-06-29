@@ -1,0 +1,51 @@
+.hero-btn{
+  background-color: transparent;
+  color: #374C9F;
+  font-weight: 700;
+  opacity: 0.8;
+  transition:  all 0.3s ease-in ;
+}
+
+.hero-btn:hover  {
+  opacity: 1;
+} 
+
+.fa-long-arrow-alt-right {
+  color: #cb997e;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container a{
+  text-decoration: none;
+  font-weight: 900;
+  color: #cb997e;
+  padding-right: 20px;
+}
+
+.arrow-icon {
+  padding-left: 20px;
+}
+
+.line-btn {
+  display: inline-block;
+  color: #cb997e;
+  text-decoration: none;
+}
+
+.line-btn::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #cb997e;
+  transition: width .3s;
+}
+
+.line-btn:hover::after{
+  width: 70%;
+}
