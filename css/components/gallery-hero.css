@@ -19,6 +19,11 @@
 
 .card {
   margin: 20px 0;
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 /* .card:hover {
@@ -100,11 +105,9 @@
   color: white;
 }
 
-@media screen and (min-width: 1200px) {
-  .container {
-    display: flex;
-    justify-content: center;
-  }
+
+@media screen and (min-width: 1000px) {
+
 
   .card-container {
     justify-content: center;
@@ -132,8 +135,12 @@
 
 
 
-
-
+@media screen and (max-width: 414px) {
+  .card img {
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 
 
