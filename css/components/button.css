@@ -52,14 +52,26 @@
 
 .btn-filter{
   border: none;
-  background-color: #fad4bb;
-  padding: 10px 24px;
+  background-color: transparent;
+  border: 1px solid #fad4bb;
+  padding: 5px 12px;
   border-radius: 10px;
   color: rgb(128, 128, 128);
   font-weight: 600;
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   letter-spacing: 2px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.3s ease-in;
 }
+
+.active, .btn-filter:hover {
+  color: white;
+  background-color: #fad4bb;
+}
+
+/* .btn-active {
+  color: white;
+  background-color: #fad4bb;
+} */

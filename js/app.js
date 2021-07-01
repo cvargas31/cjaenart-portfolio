@@ -1,5 +1,4 @@
-console.log("Hello World");
-
+// Mobile Menu
 const navSlide = () => {
   const menuBurger = document.querySelector(".menu-container");
   const nav = document.querySelector(".nav-links");
@@ -37,7 +36,7 @@ navSlide();
 
 filterObjects("all")
 
-function filterObjects(c) {
+function filterObjects(c,e) {
   var x, i;
   x = document.getElementsByClassName("card");
   if (c == "all") c ="";
@@ -69,3 +68,14 @@ function removeClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+
+// adding active class to buttons 
+
+let buttons = document.querySelectorAll('button');
+buttons.forEach(button => {
+  button.addEventListener('click', function () {
+    buttons.forEach(btn => btn.classList.remove('active'));
+    this.classList.add('active')
+  })
+})
