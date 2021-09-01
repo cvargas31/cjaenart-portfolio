@@ -36,7 +36,7 @@ navSlide();
 
 filterObjects("all")
 
-function filterObjects(c,e) {
+function filterObjects(c) {
   var x, i;
   x = document.getElementsByClassName("card");
   if (c == "all") c ="";
