@@ -51,7 +51,7 @@
 
 .footer {
   height: 50px;
-  background-color: #fad4bb;
+  background-color: #000;
   margin: auto;
   display: flex;
   flex-direction: column;

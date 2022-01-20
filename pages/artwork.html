@@ -15,11 +15,16 @@
   />
   </head>
   <body>
-    <nav id="navbar" class="nav-gallery">
-      <a href="../index.html" class="logo">CJAEN</a>
+    <nav id="navbar">
+      <div class="nav-logo">
+        <a href="../index.html" class="logo">
+          <img src="../css/assets/CJAEN-LOGO.png" alt="cjaen logo">
+        </a>
+        <h3>CJAEN</h3>
+      </div>
       <ul class="nav-links">
-        <li><a class="link" href="artwork.html">Artwork</a></li>
-        <li><a class="link" href="about_me.html">About Me</a></li>
+        <li><a class="link" href="./artwork.html">Artworks</a></li>
+        <li><a class="link" href="./about_me.html">Bio-Statement</a></li>
         <li><a class="link" href="https://wa.me/+50762406572" target="blank">Contact</a></li>
       </ul>
       <div class="menu-container">
@@ -31,7 +36,7 @@
     <main>
       <section>
         <div class="title-container">
-          <span>GALERIA</span>
+          <span>ARTWORKS</span>
         </div>
       </section>
       <section id="gallery">
@@ -42,6 +47,51 @@
         </div>
         <div class="container">
           <div class="card-container">
+            <div class="card sold">
+              <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_8332.jpg?alt=media&token=9a602d7e-c182-4382-b84e-4163b1a1a2b2" alt="" srcset="">
+              <div class="text-container">
+                <h4>Siracusa</h4>
+                <p>1.50 x 1.70 M</p>
+                <p>59" x 66"</p>
+                <p>Sold</p>
+              </div>
+            </div>
+            <div class="card sold">
+              <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_6958.jpg?alt=media&token=3fc66a48-76af-484a-97c8-07c111d58e87" alt="" srcset="">
+              <div class="text-container">
+                <h4>Catania</h4>
+                <p>1.70 x 1.20 M</p>
+                <p>66" x 47"</p>
+                <p>Sold</p>
+              </div>
+            </div>
+            <div class="card sold">
+              <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_6400.jpg?alt=media&token=d9fb06ee-c73b-4410-9cde-352afab64fde" alt="" srcset="">
+              <div class="text-container">
+                <h4>Mila</h4>
+                <p>1.30 x 1.10 M</p>
+                <p>51" x 43"</p>
+                <p>Sold</p>
+              </div>
+            </div>
+            <div class="card sold">
+              <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_7416.jpg?alt=media&token=e6973d66-e8e1-49c4-9ed2-4d43ce95629c" alt="" srcset="">
+              <div class="text-container">
+                <h4>Cresta</h4>
+                <p>0.71 x 0.63 M</p>
+                <p>28" x 25"</p>
+                <p>Sold</p>
+              </div>
+            </div>
+            <div class="card sold">
+              <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_6105.jpg?alt=media&token=e490cbd9-c9d1-4ba0-869a-f6eb3282365a" alt="" srcset="">
+              <div class="text-container">
+                <h4>Taormina</h4>
+                <p>2.30 x 1.20 M</p>
+                <p>90" x 47"</p>
+                <p>Sold</p>
+              </div>
+            </div>
             <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_3114JPG.jpg?alt=media&token=b88b8f5a-2f99-4118-bb46-f7519eb49e30" alt="" srcset="">
               <div class="text-container">
@@ -60,13 +110,13 @@
                 <p>Sold</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_3549JPG.jpg?alt=media&token=393e730e-22a0-4ba0-8d2d-64e2134f5a49" alt="" srcset="">
               <div class="text-container">
                 <h4>Cooper</h4>
                 <p>1.90 x 1.40 M"</p>
                 <p>75" x 55"</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
             <div class="card sold">
@@ -114,22 +164,22 @@
                 <p>Sold</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/rsz_f2274ac2-0b52-44df-b8e5-fce2f23592ca.jpg?alt=media&token=4e567d94-1a10-432d-83dd-0dad6f717b65" alt="" srcset="">
               <div class="text-container">
                 <h4>Miami</h4>
                 <p>1.40 x 0.70 M</p>
                 <p>55" x 27"</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/rsz_img_1500.jpg?alt=media&token=0f846355-2f5d-4248-ab8b-a48599d43865" alt="" srcset="">
               <div class="text-container">
                 <h4>Thiras</h4>
                 <p>1.20 x 0.60 M</p>
                 <p>48" x 28"</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
             <div class="card sold">
@@ -159,13 +209,13 @@
                 <p>Sold</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_5831.JPG?alt=media&token=4f6d3981-6b8f-4395-b175-3c6e97725a83" alt="" srcset="">
               <div class="text-container">
                 <h4>Cairo</h4>
                 <p>1.50 x 1.60 M</p>
                 <p>58" x 62"</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
             <div class="card sold">
@@ -186,13 +236,13 @@
                 <p>Available</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_4278.JPG?alt=media&token=b720a78a-2099-433e-963a-61c9a92a60e4" alt="" srcset="">
               <div class="text-container">
                 <h4>Paz</h4>
                 <p>1.02 x 1.62 M</p>
                 <p>40" x 64"</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
             <div class="card sold">
@@ -204,13 +254,13 @@
                 <p>Sold</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_4786.JPG?alt=media&token=70117c63-4f3f-4814-98ee-c4e22b433ee7" alt="" srcset="">
               <div class="text-container">
                 <h4>Berverly</h4>
                 <p>1.40 x 1.20 M</p>
                 <p>55" x 40"</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
             <div class="card sold">
@@ -222,13 +272,13 @@
                 <p>Sold</p>
               </div>
             </div>
-            <div class="card available">
+            <div class="card sold">
               <img onclick="onClick(this)" class="modal-hover-opacity" src="https://firebasestorage.googleapis.com/v0/b/cjaen-art.appspot.com/o/IMG_7948.JPG?alt=media&token=6a21987d-a8df-4f5f-a693-33ac87b15c98" alt="" srcset="">
               <div class="text-container">
                 <h4>Ramblas</h4>
                 <p>0.50 x 0.50 m</p>
                 <p>20” x 20”</p>
-                <p>Available</p>
+                <p>Sold</p>
               </div>
             </div>
           </div>

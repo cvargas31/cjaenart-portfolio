@@ -11,7 +11,7 @@
 } 
 
 .fa-long-arrow-alt-right {
-  color: #cb997e;
+  color: #000;
 }
 
 .btn-container {
@@ -23,7 +23,7 @@
 .btn-container a{
   text-decoration: none;
   font-weight: 900;
-  color: #cb997e;
+  color: #000;
   padding-right: 20px;
 }
 
@@ -42,7 +42,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background: #cb997e;
+  background: #000;
   transition: width .3s;
 }
 
@@ -53,10 +53,10 @@
 .btn-filter{
   border: none;
   background-color: transparent;
-  border: 1px solid #fad4bb;
+  border: 1px solid #000;
   padding: 5px 12px;
   border-radius: 10px;
-  color: rgb(128, 128, 128);
+  color: #000;
   font-weight: 600;
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
@@ -68,7 +68,7 @@
 
 .active, .btn-filter:hover {
   color: white;
-  background-color: #fad4bb;
+  background-color: rgb(233 227 222);
 }
 
 /* .btn-active {
