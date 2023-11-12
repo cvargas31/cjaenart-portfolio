@@ -23,3 +23,10 @@ body {
   overflow-x: hidden;
   padding-bottom: 60px;
 }
+
+
+@media screen and (max-width: 768px) {
+  iframe {
+    height: 100vh;
+  }
+}
