@@ -30,3 +30,21 @@ body {
     height: 100vh;
   }
 }
+
+.statement-container {
+}
+
+.statement {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.statement-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .statement {
+    width: 100%;
+  }
+}
